@@ -1,3 +1,9 @@
+spring-transactions-example
+
+propagation: deals with how multiple transactions can communicate with each other
+isolation: controls how one transaction sees the changes made by another transaction
+
+
 ### POST Request
 
 ```
