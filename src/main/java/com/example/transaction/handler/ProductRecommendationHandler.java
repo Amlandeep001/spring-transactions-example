@@ -29,6 +29,7 @@ public class ProductRecommendationHandler
 
 		System.out.println("Recommendations fetched for customer ");
 		log.info("Recommendations fetched for customer ");
+
 		return recommendations;
 	}
 }
