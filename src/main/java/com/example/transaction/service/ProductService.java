@@ -34,7 +34,7 @@ public class ProductService
 				.orElseThrow(() -> new RuntimeException("Product not found"));
 		product.setStockQuantity(stock);
 
-		inventoryRepository.save(product);
+		inventoryRepository.update(product);
 		entityManager.flush(); // Ensure the update is sent to the DB
 
 		// Simulate a long-running transaction (does not commit yet)
