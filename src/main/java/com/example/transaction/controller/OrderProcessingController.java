@@ -62,7 +62,7 @@ public class OrderProcessingController
 	 * @return success message
 	 * @throws InterruptedException
 	 */
-	@GetMapping("/isolation")
+	@GetMapping("/isolation/{productId}")
 	public String testIsolation(@PathVariable int productId) throws InterruptedException
 	{
 		// readUncommittedDemo.testReadUncommitted(productId);
